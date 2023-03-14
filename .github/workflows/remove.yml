@@ -1,12 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Serverless Remove
+name: Manual Serverless Remove
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
+  # push:
+  #  branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
